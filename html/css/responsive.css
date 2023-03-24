@@ -1,0 +1,159 @@
+
+
+@media screen and (max-width: 1200px){
+
+    .banner-section h1 {
+        font-size: 34px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .about-bg {
+        background-image: url(../image/about-img.png);
+        height: 360px;
+    }
+
+    .detail-img img {
+        height: 420px;
+    }
+
+}
+@media screen and (max-width: 991px){
+    .banner-contant {
+        margin-top: 75px;
+    }
+    .banner-section p br{
+        display: none;
+ }
+
+ .detail-img img {
+   display: none;
+}
+
+ .about-bg {
+    background-image: url(../image/about-img.png);
+    height: auto;
+}
+
+ .patner-heading h2 {
+    line-height: 26px;
+}
+
+ .patner-heading p br{
+    display: none;
+ }
+
+ .about-content {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+.deaitl-contant {
+    text-align: center;
+}
+
+
+}
+
+@media screen and (max-width:678px){
+
+    .about-content {
+        margin-top: 40px;
+    }
+
+    .about-sec-1 ul li {
+        font-size: 16px;
+    }
+
+    .about-sec-2 ul li {
+       font-size: 16px;
+    }
+
+    .about-img {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+      
+    }
+
+    .about-img img{
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 576px){
+
+    .banner-section h1 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .banner-section p br{
+        display: none;
+ }
+
+    .banner-contant {
+        margin-top: 55px;
+    }
+
+    .patner-heading h2{
+        font-size: 20px;
+    }
+
+    .patner-heading p{
+        font-size: 16px;
+    }
+
+    .about-content {
+        display: block;
+    }
+
+    .about-sec-1 ul li {
+        justify-content: center;
+    }
+
+    .about-sec-2 ul li {
+        justify-content: center;
+    }
+
+
+}
+
+@media screen and (max-width: 420px){
+    .banner-section h1 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+    }
+    .banner-section p{
+        font-size: 14px;
+ }
+ .flexbox{
+    padding: 10px;
+}
+
+.navbar-brand img {
+    width: 165px;
+}
+
+.search > div > input {
+    width: 15px;
+    height: 15px;
+    padding: 8px;
+}
+
+.search > div:after {
+    width: 3px;
+    height: 9px;
+}
+
+.detail-heading {
+    margin: 10px 0px;
+}
+
+
+}
